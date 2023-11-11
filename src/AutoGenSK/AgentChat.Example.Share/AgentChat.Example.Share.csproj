@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Helper package for AgentChat examples and notebooks</Description>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	<Nullable>enable</Nullable>
+	<LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AgentChat.Core\AgentChat.Core.csproj" />
+    <ProjectReference Include="..\AgentChat.OpenAI\AgentChat.OpenAI.csproj" />
+  </ItemGroup>
+	
+
+</Project>

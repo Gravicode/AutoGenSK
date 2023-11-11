@@ -1,0 +1,8 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<Description>AgentChat core library.</Description>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+		<RootNamespace>AgentChat</RootNamespace>
+	</PropertyGroup>
+</Project>
