@@ -7,7 +7,7 @@ namespace AgentChat.Example.Share
     public static class Constant
     {
         //public static string MLNET101SEARCHTOEKN { get; set; } 
-        public static string BingKey{ get; set; } = "aab3c839bcaf42b38eb8315eee01fbb9";
+        public static string BingKey{ get; set; }
         public static string GPT_35_MODEL_ID { get; set; } = "gpt-3.5-turbo";
 
         public static string GPT_4_MODEL_ID { get; set; } = "gpt-4-1106-preview";
