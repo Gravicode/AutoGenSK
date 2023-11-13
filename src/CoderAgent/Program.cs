@@ -10,6 +10,7 @@ namespace CoderAgent
     {
         static async Task Main(string[] args)
         {
+            Constant.BingKey = "[BING KEY HERE]";
             Constant.OPENAI_API_KEY = "[OPEN API KEY HERE]";
             Constant.OpenAIGPT35 = Constant.OpenAIGPT35 ?? GPT.CreateFromOpenAI(Constant.OPENAI_API_KEY, Constant.GPT_35_MODEL_ID);
             Constant.OpenAIGPT4 = Constant.OpenAIGPT4 ?? GPT.CreateFromOpenAI(Constant.OPENAI_API_KEY, Constant.GPT_4_MODEL_ID);
